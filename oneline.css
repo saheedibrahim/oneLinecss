@@ -1,0 +1,8 @@
+.ex1 .parent{
+    display: grid;
+    place-items: center;
+}
+.parent{
+    /* clamp<min><actual><max> */
+    width: clamp(23ch 50% 46ch);
+}
